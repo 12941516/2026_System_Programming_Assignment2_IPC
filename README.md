@@ -1,4 +1,4 @@
-# System Programming Assignment2(IPC: Server-Client)
+# System Programming Assignment3(IPC: Server-Client)
 ## Student: 소프트웨어학과 202422117 금민기
 ### 실행 과정들
 1. Build
