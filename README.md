@@ -7,12 +7,14 @@
 ~$ make clean
 ~$ make
 ```
+
 2. Module Load/Unload
 ```bash
 ~$ cd 202422117
 ~/202422117$ sudo insmod .build/simipc.ko   # Load
 ~/202422117$ sudo rmmod simipc              # Unload
 ```
+
 3. Run Server/Client Processes
 ```bash
 ~$ cd 202422117
@@ -23,6 +25,7 @@
 ~/202422117$ .build/client KV_STORE PUT [Key] [Value]    # PUT
 ~/202422117$ .build/client KV_STORE GET [Key] [Value]    # GET
 ```
+
 4. Examples
 server 먼저 실행
 ```bash
