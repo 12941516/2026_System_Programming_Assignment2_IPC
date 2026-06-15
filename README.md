@@ -44,7 +44,7 @@ PUT K: name V: kim
 ```
 client GET 실행(Key: "name")과 결과
 ```bash
-~/202422117$ .build/client KV_STORE PUT name kim
+~/202422117$ .build/client KV_STORE GET name
 kim
 ```
 server의 GET Request 수신 결과
